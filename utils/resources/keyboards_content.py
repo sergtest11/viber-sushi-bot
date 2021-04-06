@@ -31,7 +31,7 @@ PIZZA_SNACKS_MENU = [
 OTHER_MENU = [
     ('sauces', 'Соусы и комплектующие'),
     ('drinks', 'Напитки'),
-    ('offers', 'Акции'),
+    ('offers', 'Акции и отзывы'),
     ('delivery', 'Доставка и контакты')
 ]
 
@@ -112,7 +112,7 @@ ORDER_COMFIRMATION_KEYBOARD = {
             "ActionType": "reply",
             "ActionBody": "edit",
             "ReplyType": "message",
-            "Text": "Отменить выбранную позицию"
+            "Text": "Отменить выбор"
         },
         {
             "Columns": 3,
@@ -199,7 +199,7 @@ ORDER_BUTTON = [
             "ActionType": "reply",
             "ActionBody": "edit",
             "ReplyType": "message",
-            "Text": "Отменить выбранную позицию"
+            "Text": "Отменить выбор"
         },
         {
             "Columns": 3,
