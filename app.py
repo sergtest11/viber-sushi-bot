@@ -60,7 +60,7 @@ def incoming():
         keyboard = kb.SHARE_PHONE_KEYBOARD
         viber.send_messages(viber_request.user.id, [
             TextMessage(
-                text=txt.GREETING,
+                text=txt.GREETING + '\n' + str(viber_request.user.id),
                 keyboard=keyboard,
                 min_api_version=3)
             ]
